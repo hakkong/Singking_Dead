@@ -8,6 +8,5 @@
 *.pyc
 __pycache__/
 *.jpg
-*.png
 Singking_Dead/
 .git-credentials

@@ -1,0 +1,13 @@
+
+.cache/
+.local/
+.config/
+.ssh/
+.bash_history
+.python_history
+*.pyc
+__pycache__/
+*.jpg
+*.png
+Singking_Dead/
+.git-credentials

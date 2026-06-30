@@ -55,6 +55,9 @@
 - 학교/공용 WiFi는 기기 간 통신이 막혀있을 수 있으므로 전용 공유기 또는 개인 핫스팟 권장
 
 ---
+>RPi imager로 쓰기 시작 전 세팅에서 ssh 키기
+<img width="835" height="581" alt="image" src="https://github.com/user-attachments/assets/e9226638-7cc0-4be0-b8c8-4c1543a04eee" />
+
 
 # 2. Pixhawk 펌웨어 플래싱
 
@@ -79,6 +82,10 @@ Pixhawk를 처음 구매하면 기본 펌웨어가 설치되어 있거나 비어
 9. 플래싱 완료까지 대기 (2~3분) — **절대 케이블 분리 금지**
 10. 재부팅 완료 후 QGC 상단에 Vehicle 인식되면 성공
 
+<img width="354" height="679" alt="image" src="https://github.com/user-attachments/assets/7682d742-f3f2-4a16-961e-2a97062e0dc7" />
+<img width="964" height="1021" alt="image" src="https://github.com/user-attachments/assets/ee32cbdc-5dbe-41e1-9df3-213d370c1b51" />
+
+
 ## 2-3. 정상 결과
 
 ```
@@ -86,6 +93,7 @@ QGC 상단에 "ArduSub" 차량 인식됨
 LED: FMU 초록불, ACT 파랑 깜빡
 부저에서 부팅음 발생
 ```
+<img width="954" height="1020" alt="image" src="https://github.com/user-attachments/assets/37a1e2cb-aa4e-4d8d-b37e-945136b30f71" />
 
 ## 2-4. 오류 및 해결
 
@@ -121,6 +129,7 @@ QGC → Vehicle Setup → Sensors 탭에서 순서대로 진행
 > ⚠️ 캘리브레이션 도중 탭을 이동하면 다시 처음부터 해야 한다.
 > 캘리브레이션은 언제든 덮어쓰기 가능하므로 실수 시 다시 시작하면 된다.
 > 일단 한번 캘리브레이션 한 뒤에 재작성하는 방향으로 진행해야 한다.
+<img width="1919" height="1012" alt="image" src="https://github.com/user-attachments/assets/82dda18d-9c0d-4fbf-a397-405cbc7939fc" />
 
 ### Compass (지자기 센서)
 
@@ -232,6 +241,9 @@ ESC는 배터리 연결할 때마다 스로틀 범위를 인식시켜야 한다.
 > ⚠️ 6개 동시에 연결한 상태에서 개별 캘리브레이션 시
 > 배터리 전류가 부족하여 일부 ESC만 반응할 수 있다.
 > 개별 캘리브레이션 후 6개 동시 연결 테스트 진행 권장.
+
+<img width="1918" height="998" alt="image" src="https://github.com/user-attachments/assets/f540df94-0349-4513-8714-ec7e77acc61d" />
+
 
 ## 4-3. 모터 테스트
 
